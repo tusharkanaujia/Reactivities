@@ -1,0 +1,13 @@
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\bin\Debug\netstandard2.0\Application.deps.json
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\bin\Debug\netstandard2.0\Application.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\bin\Debug\netstandard2.0\Application.pdb
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\bin\Debug\netstandard2.0\Domain.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\bin\Debug\netstandard2.0\Persistance.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\bin\Debug\netstandard2.0\Domain.pdb
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\bin\Debug\netstandard2.0\Persistance.pdb
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\obj\Debug\netstandard2.0\Application.csprojAssemblyReference.cache
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\obj\Debug\netstandard2.0\Application.AssemblyInfoInputs.cache
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\obj\Debug\netstandard2.0\Application.AssemblyInfo.cs
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\obj\Debug\netstandard2.0\Application.csproj.CopyComplete
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\obj\Debug\netstandard2.0\Application.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\obj\Debug\netstandard2.0\Application.pdb

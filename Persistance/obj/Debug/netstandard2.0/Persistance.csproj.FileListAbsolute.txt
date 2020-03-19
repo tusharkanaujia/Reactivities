@@ -1,0 +1,11 @@
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Persistance\bin\Debug\netstandard2.0\Persistance.deps.json
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Persistance\bin\Debug\netstandard2.0\Persistance.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Persistance\bin\Debug\netstandard2.0\Persistance.pdb
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Persistance\bin\Debug\netstandard2.0\Domain.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Persistance\bin\Debug\netstandard2.0\Domain.pdb
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Persistance\obj\Debug\netstandard2.0\Persistance.csprojAssemblyReference.cache
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Persistance\obj\Debug\netstandard2.0\Persistance.AssemblyInfoInputs.cache
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Persistance\obj\Debug\netstandard2.0\Persistance.AssemblyInfo.cs
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Persistance\obj\Debug\netstandard2.0\Persistance.csproj.CopyComplete
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Persistance\obj\Debug\netstandard2.0\Persistance.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Persistance\obj\Debug\netstandard2.0\Persistance.pdb
