@@ -30,7 +30,7 @@ namespace Application.Activities {
                     _logger.LogInformation ($"Task has completed");
 
                 } catch (Exception ex) {
-                    _logger.LogInformation ($"Task cancelled");
+                    _logger.LogInformation ($"Task cancelled: {ex}");
                 }
                 var activities = await _context.Activities.ToListAsync (cancellationToken);
                 return activities;
