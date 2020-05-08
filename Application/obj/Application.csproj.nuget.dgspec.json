@@ -23,14 +23,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "netcoreapp3.1": {
             "projectReferences": {
               "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj"
@@ -48,8 +48,12 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "netcoreapp3.1": {
           "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -66,11 +70,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -93,14 +97,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -111,7 +115,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -123,11 +127,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -150,14 +154,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "netcoreapp3.1": {
             "projectReferences": {
               "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj"
@@ -172,7 +176,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -194,11 +198,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

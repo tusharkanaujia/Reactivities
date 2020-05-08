@@ -9,3 +9,4 @@ C:\LocalFolder\Programming\React\Udemy\Reactivities\Persistance\obj\Debug\netsta
 C:\LocalFolder\Programming\React\Udemy\Reactivities\Persistance\obj\Debug\netstandard2.1\Persistance.csproj.CopyComplete
 C:\LocalFolder\Programming\React\Udemy\Reactivities\Persistance\obj\Debug\netstandard2.1\Persistance.dll
 C:\LocalFolder\Programming\React\Udemy\Reactivities\Persistance\obj\Debug\netstandard2.1\Persistance.pdb
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Persistance\obj\Debug\netstandard2.1\Persistance.csproj.CoreCompileInputs.cache

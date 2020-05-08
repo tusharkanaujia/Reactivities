@@ -11,3 +11,4 @@ C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\obj\Debug\netsta
 C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\obj\Debug\netstandard2.1\Application.csproj.CopyComplete
 C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\obj\Debug\netstandard2.1\Application.dll
 C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\obj\Debug\netstandard2.1\Application.pdb
+C:\LocalFolder\Programming\React\Udemy\Reactivities\Application\obj\Debug\netstandard2.1\Application.csproj.CoreCompileInputs.cache

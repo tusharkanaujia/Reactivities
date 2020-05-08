@@ -2,6 +2,47 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "FluentValidation/8.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
+      "FluentValidation.AspNetCore/8.6.2": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "8.6.2",
+          "FluentValidation.DependencyInjectionExtensions": "8.6.2"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "FluentValidation.DependencyInjectionExtensions/8.6.2": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "8.6.2",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
+        }
+      },
       "MediatR/8.0.0": {
         "type": "package",
         "compile": {
@@ -455,9 +496,10 @@
       },
       "Application/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Domain": "1.0.0",
+          "FluentValidation.AspNetCore": "8.6.2",
           "MediatR.Extensions.Microsoft.DependencyInjection": "8.0.0",
           "Persistance": "1.0.0"
         },
@@ -470,7 +512,7 @@
       },
       "Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
@@ -480,7 +522,7 @@
       },
       "Persistance/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.2",
@@ -496,6 +538,55 @@
     }
   },
   "libraries": {
+    "FluentValidation/8.6.2": {
+      "sha512": "N2vz+f6pAX9AI19hu83U2LJjjc/ETzWGlICVanu3DIG76QhzEu3PR/CQSFBX69PRuBTivrW4jhBzeV7dXIfqyw==",
+      "type": "package",
+      "path": "fluentvalidation/8.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidation.8.6.2.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net45/FluentValidation.dll",
+        "lib/net45/FluentValidation.xml",
+        "lib/netstandard1.1/FluentValidation.dll",
+        "lib/netstandard1.1/FluentValidation.xml",
+        "lib/netstandard1.6/FluentValidation.dll",
+        "lib/netstandard1.6/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.AspNetCore/8.6.2": {
+      "sha512": "55s9XfDEtykWAd3KjWiB9xM6FsYQW4K0gTWY4Sl4f65vEdb2nlS3uijtKIpRuayLYMC5/Bvd9QUhOsSGZ11Pwg==",
+      "type": "package",
+      "path": "fluentvalidation.aspnetcore/8.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidation.aspnetcore.8.6.2.nupkg.sha512",
+        "fluentvalidation.aspnetcore.nuspec",
+        "lib/netcoreapp3.0/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp3.0/FluentValidation.AspNetCore.xml",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.xml",
+        "lib/netstandard2.0/FluentValidation.AspNetCore.dll",
+        "lib/netstandard2.0/FluentValidation.AspNetCore.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/8.6.2": {
+      "sha512": "A3Hw0xjB/j6b/UiC8RgLsp5TkApZOsLzh5LAmfZkbQpWBrAqo8B4eOm+uyYhN3crSg0E6kgse8k6EdZpRoj+sQ==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/8.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidation.dependencyinjectionextensions.8.6.2.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
     "MediatR/8.0.0": {
       "sha512": "cYSDJ2b/dIiwTLW/ZW/SQcXq9I3WF6KR4D0KN4hxWR08tZqcvcVS1bQXZbsANdQdTQfxx+ZFp5WkHLMyeoR5Zw==",
       "type": "package",
@@ -1317,7 +1408,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
