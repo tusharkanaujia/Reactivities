@@ -3,5 +3,5 @@
         "**/bin": true,
         "**/obj": true
     },
-    "workbench.colorTheme": "Andromeda Colorizer"
+    "workbench.colorTheme": "Material Theme Darker High Contrast"
 }
