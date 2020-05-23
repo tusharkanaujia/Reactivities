@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\API\\API.csproj": {}
+    "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\API\\API.csproj": {
+    "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\API\\API.csproj",
+        "projectPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Tushar Kanaujia\\.nuget\\packages\\",
-        "outputPath": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\API\\obj\\",
+        "outputPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,11 +32,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Application\\Application.csproj": {
-                "projectPath": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Application\\Application.csproj"
+              "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Application\\Application.csproj"
               },
-              "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Infrastruture\\Infrastruture.csproj": {
-                "projectPath": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Infrastruture\\Infrastruture.csproj"
+              "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Infrastruture\\Infrastruture.csproj": {
+                "projectPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Infrastruture\\Infrastruture.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Application\\Application.csproj": {
+    "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Application\\Application.csproj",
+        "projectPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Tushar Kanaujia\\.nuget\\packages\\",
-        "outputPath": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Application\\obj\\",
+        "outputPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -113,11 +113,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj"
+              "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj"
               },
-              "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Persistance\\Persistance.csproj": {
-                "projectPath": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Persistance\\Persistance.csproj"
+              "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Persistance\\Persistance.csproj": {
+                "projectPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Persistance\\Persistance.csproj"
               }
             }
           }
@@ -131,6 +131,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[8.6.2, )"
@@ -159,14 +163,14 @@
         }
       }
     },
-    "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj": {
+    "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Tushar Kanaujia\\.nuget\\packages\\",
-        "outputPath": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\obj\\",
+        "outputPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -222,14 +226,14 @@
         }
       }
     },
-    "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Infrastruture\\Infrastruture.csproj": {
+    "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Infrastruture\\Infrastruture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Infrastruture\\Infrastruture.csproj",
+        "projectUniqueName": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Infrastruture\\Infrastruture.csproj",
         "projectName": "Infrastruture",
-        "projectPath": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Infrastruture\\Infrastruture.csproj",
+        "projectPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Infrastruture\\Infrastruture.csproj",
         "packagesPath": "C:\\Users\\Tushar Kanaujia\\.nuget\\packages\\",
-        "outputPath": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Infrastruture\\obj\\",
+        "outputPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Infrastruture\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -250,8 +254,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Application\\Application.csproj": {
-                "projectPath": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Application\\Application.csproj"
+              "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Application\\Application.csproj"
               }
             }
           }
@@ -289,14 +293,14 @@
         }
       }
     },
-    "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Persistance\\Persistance.csproj": {
+    "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Persistance\\Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Persistance\\Persistance.csproj",
+        "projectUniqueName": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Persistance\\Persistance.csproj",
         "projectName": "Persistance",
-        "projectPath": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Persistance\\Persistance.csproj",
+        "projectPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Persistance\\Persistance.csproj",
         "packagesPath": "C:\\Users\\Tushar Kanaujia\\.nuget\\packages\\",
-        "outputPath": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Persistance\\obj\\",
+        "outputPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -317,8 +321,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj"
+              "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\LocalFolder\\Programming\\React\\Udemy\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }
@@ -337,6 +341,10 @@
               "version": "[3.1.2, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[3.1.2, )"
             },
