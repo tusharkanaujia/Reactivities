@@ -94,3 +94,4 @@ C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\
 C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll

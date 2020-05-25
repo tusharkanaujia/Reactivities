@@ -3,5 +3,5 @@
         "**/bin": true,
         "**/obj": true
     },
-    "workbench.colorTheme": "Material Theme Darker High Contrast"
+    "workbench.colorTheme": "Brackets Light Pro Bold"
 }
