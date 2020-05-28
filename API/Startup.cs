@@ -27,6 +27,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using AutoMapper;
 using Infrastruture.Photos;
+using API.SignalR;
 
 namespace API
 {
@@ -52,7 +53,7 @@ namespace API
             {
                 opt.AddPolicy("CorsPolicy", policy=>
                 {
-                    policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000");
+                    policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000").AllowCredentials();
                 });
             });
             
@@ -70,6 +71,8 @@ namespace API
             services.AddMediatR(typeof(List.Handler).Assembly);
             
             services.AddAutoMapper(typeof(List.Handler));
+            services.AddSignalR();
+
             var builder = services.AddIdentityCore<AppUser>();
             var identityBuilder = new IdentityBuilder(builder.UserType, builder.Services);
             identityBuilder.AddEntityFrameworkStores<DataContext>();
@@ -94,6 +97,19 @@ namespace API
                                 IssuerSigningKey = key,
                                 ValidateAudience=false,
                                 ValidateIssuer=false
+                            };
+                            opt.Events= new JwtBearerEvents
+                            {
+                                OnMessageReceived = context =>
+                                {
+                                    var accessToken = context.Request.Query["access_token"];
+                                    var path = context.HttpContext.Request.Path;
+                                    if (!string.IsNullOrEmpty(accessToken) && path.StartsWithSegments("/chat"))
+                                    {
+                                        context.Token=accessToken;
+                                    }
+                                    return Task.CompletedTask;
+                                }
                             };
                         }
                     );
@@ -125,6 +141,7 @@ namespace API
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapHub<ChatHub>("/chat");
             });
         }
     }
