@@ -10,7 +10,7 @@ using Persistance;
 namespace Application.Profiles {
     public class Details {
         public class Query : IRequest<Profile> {
-            public string Usernane { get; set; }
+            public string Username { get; set; }
         }
 
         public class Handler : IRequestHandler<Query, Profile> {
@@ -19,7 +19,7 @@ namespace Application.Profiles {
                 _profileReader = profileReader;
             }
             public async Task<Profile> Handle (Query request, CancellationToken cancellationToken) {
-                return await _profileReader.ReadProfile(request.Usernane);
+                return await _profileReader.ReadProfile(request.Username);
             }
         }
     }
