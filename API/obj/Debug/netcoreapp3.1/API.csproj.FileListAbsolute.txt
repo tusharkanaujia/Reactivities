@@ -95,3 +95,17 @@ C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\
 C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
 C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\LocalFolder\Programming\React\Udemy\Reactivities\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll

@@ -3,3 +3,4 @@ obj
 .vscode
 appsetting.json
 *.db
+wwwroot
